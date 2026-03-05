@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Kathy Kelly</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .resume-viewer {
+      display: flex;
+      gap: 20px;
+      margin-top: 30px;
+      justify-content: center;
+    }
+    .resume-page {
+      flex: 1;
+      max-width: 400px;
+      border: 1px solid #ddd;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .pdf-link {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: var(--teal);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .resume-viewer { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Professional Resume</h1>
+    <p class="subtitle">Media Arts & CS Education Specialist</p>
+
+    <a href="images/Kathy_Kelly_Resume.pdf" target="_blank" class="pdf-link">
+      Download PDF Version
+    </a>
+
+    <div class="resume-viewer">
+      <img src="images/resume-pg1.jpg" alt="Resume Page 1" class="resume-page">
+      <img src="images/resume-pg2.jpg" alt="Resume Page 2" class="resume-page">
+    </div>
+
+    <br><br>
+    <a href="index.html" style="color: var(--mustard); text-decoration: none; font-weight: bold;">← Back to Portfolio</a>
+  </main>
+</body>
+</html>zswsz
